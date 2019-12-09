@@ -4,7 +4,6 @@ import axios from 'axios';
 // const databaseUrl = process.env.HEROKU_DB_URL || 'http://localhost:3000'
 const herokuBackendUrl = 'https://project3-deployment.herokuapp.com'
 const databaseUrl = process.env.NODE_ENV === 'production' ? herokuBackendUrl : 'http://localhost:3000'
-const databaseUrl = 'https://project3-backend-test.herokuapp.com'
 
 
 class App extends React.Component {
